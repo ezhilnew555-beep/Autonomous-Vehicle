@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-12T03:03:18.450407",
+  "total_runs": 60,
+  "static_runs_count": 45,
+  "dynamic_runs_count": 15,
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python_version": "3.11.9",
+  "configuration": {
+    "grid_size": "24x17",
+    "cell_size": 40,
+    "detection_range": 220.0,
+    "prediction_horizon": 1.0,
+    "caution_speed_factor": 0.5,
+    "safety_margin_base": 8.0
+  }
+}
