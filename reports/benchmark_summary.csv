@@ -1,16 +1,16 @@
 scenario_id,scenario_name,algorithm,total_runs,success_count,success_rate,timeout_count,timeout_rate,failure_count,failure_rate,plan_time_mean_ms,plan_time_median_ms,plan_time_std_dev_ms,plan_time_min_ms,plan_time_max_ms,nodes_expanded_mean,nodes_expanded_median,nodes_expanded_std_dev,nodes_expanded_min,nodes_expanded_max,path_cost_mean,path_length_px_mean,travel_time_mean_s,travel_time_median_s,travel_time_std_dev_s,travel_time_sample_size,replanning_count_mean,total_emergency_stops,total_collision_risk_events,total_actual_collisions,min_clearance_mean_px
-cattle_crossing,5. Sudden Cattle Crossing,astar,6,6,1.0,0,0.0,0,0.0,0.556,0.47,0.248,0.337,0.994,20.0,20.0,0.0,20.0,20.0,19.0,760.0,7.0,7.0,0.0,3,0.0,0,0,0,68.1
-cattle_crossing,5. Sudden Cattle Crossing,dijkstra,3,3,1.0,0,0.0,0,0.0,1.038,1.038,0.029,1.009,1.067,85.0,85.0,0.0,85.0,85.0,19.0,760.0,,,,0,0.0,0,0,0,
-cattle_crossing,5. Sudden Cattle Crossing,gbfs,3,3,1.0,0,0.0,0,0.0,0.339,0.34,0.004,0.335,0.343,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,0.0,0,0,0,
-dense_market,4. Dense Market with Mixed Traffic,astar,6,3,0.5,0,0.0,3,0.5,0.624,0.525,0.275,0.342,1.087,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,4.0,15,27,0,45.3
-dense_market,4. Dense Market with Mixed Traffic,dijkstra,3,3,1.0,0,0.0,0,0.0,0.957,0.934,0.056,0.917,1.021,77.0,77.0,0.0,77.0,77.0,19.0,760.0,,,,0,0.0,0,0,0,
-dense_market,4. Dense Market with Mixed Traffic,gbfs,3,3,1.0,0,0.0,0,0.0,0.342,0.334,0.016,0.332,0.36,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,0.0,0,0,0,
-highway_merge,3. Highway Merging with Slow Traffic,astar,6,6,1.0,0,0.0,0,0.0,0.736,0.73,0.071,0.659,0.867,44.0,44.0,0.0,44.0,44.0,20.243,809.72,8.2,8.2,0.0,3,0.5,0,0,0,60.0
-highway_merge,3. Highway Merging with Slow Traffic,dijkstra,3,3,1.0,0,0.0,0,0.0,1.453,1.303,0.322,1.234,1.823,103.0,103.0,0.0,103.0,103.0,20.243,809.72,,,,0,0.0,0,0,0,
-highway_merge,3. Highway Merging with Slow Traffic,gbfs,3,3,1.0,0,0.0,0,0.0,0.352,0.357,0.008,0.343,0.357,20.0,20.0,0.0,20.0,20.0,20.243,809.72,,,,0,0.0,0,0,0,
-urban_intersection,2. Unsignalized Urban Intersection,astar,6,6,1.0,0,0.0,0,0.0,0.412,0.403,0.047,0.349,0.486,20.0,20.0,0.0,20.0,20.0,19.0,760.0,7.0,7.0,0.0,3,0.0,0,0,0,146.0
-urban_intersection,2. Unsignalized Urban Intersection,dijkstra,3,3,1.0,0,0.0,0,0.0,1.716,1.665,0.104,1.647,1.836,135.0,135.0,0.0,135.0,135.0,19.0,760.0,,,,0,0.0,0,0,0,
-urban_intersection,2. Unsignalized Urban Intersection,gbfs,3,3,1.0,0,0.0,0,0.0,0.345,0.343,0.007,0.34,0.353,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,0.0,0,0,0,
-village_road,1. Unmarked Village Road,astar,6,6,1.0,0,0.0,0,0.0,0.431,0.415,0.047,0.375,0.504,33.0,33.0,0.0,33.0,33.0,20.243,809.72,8.35,8.35,0.0,3,1.0,0,0,0,31.7
-village_road,1. Unmarked Village Road,dijkstra,3,3,1.0,0,0.0,0,0.0,0.397,0.4,0.007,0.389,0.401,39.0,39.0,0.0,39.0,39.0,20.243,809.72,,,,0,0.0,0,0,0,
-village_road,1. Unmarked Village Road,gbfs,3,3,1.0,0,0.0,0,0.0,0.321,0.266,0.098,0.264,0.434,22.0,22.0,0.0,22.0,22.0,21.071,842.84,,,,0,0.0,0,0,0,
+cattle_crossing,5. Sudden Cattle Crossing,astar,6,6,1.0,0,0.0,0,0.0,0.35,0.348,0.023,0.325,0.38,20.0,20.0,0.0,20.0,20.0,19.0,760.0,7.0,7.0,0.0,3,0.0,0,0,0,68.1
+cattle_crossing,5. Sudden Cattle Crossing,dijkstra,3,3,1.0,0,0.0,0,0.0,1.077,1.007,0.138,0.987,1.236,85.0,85.0,0.0,85.0,85.0,19.0,760.0,,,,0,0.0,0,0,0,
+cattle_crossing,5. Sudden Cattle Crossing,gbfs,3,3,1.0,0,0.0,0,0.0,0.348,0.349,0.013,0.335,0.361,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,0.0,0,0,0,
+dense_market,4. Dense Market with Mixed Traffic,astar,6,3,0.5,0,0.0,3,0.5,0.352,0.334,0.042,0.32,0.43,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,4.0,15,27,0,45.3
+dense_market,4. Dense Market with Mixed Traffic,dijkstra,3,3,1.0,0,0.0,0,0.0,0.877,0.867,0.017,0.867,0.896,77.0,77.0,0.0,77.0,77.0,19.0,760.0,,,,0,0.0,0,0,0,
+dense_market,4. Dense Market with Mixed Traffic,gbfs,3,3,1.0,0,0.0,0,0.0,0.319,0.319,0.006,0.313,0.325,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,0.0,0,0,0,
+highway_merge,3. Highway Merging with Slow Traffic,astar,6,6,1.0,0,0.0,0,0.0,0.742,0.71,0.095,0.677,0.928,44.0,44.0,0.0,44.0,44.0,20.243,809.72,8.2,8.2,0.0,3,0.5,0,0,0,60.0
+highway_merge,3. Highway Merging with Slow Traffic,dijkstra,3,3,1.0,0,0.0,0,0.0,1.397,1.44,0.159,1.221,1.529,103.0,103.0,0.0,103.0,103.0,20.243,809.72,,,,0,0.0,0,0,0,
+highway_merge,3. Highway Merging with Slow Traffic,gbfs,3,3,1.0,0,0.0,0,0.0,0.343,0.341,0.008,0.336,0.352,20.0,20.0,0.0,20.0,20.0,20.243,809.72,,,,0,0.0,0,0,0,
+urban_intersection,2. Unsignalized Urban Intersection,astar,6,6,1.0,0,0.0,0,0.0,0.366,0.356,0.055,0.321,0.47,20.0,20.0,0.0,20.0,20.0,19.0,760.0,7.0,7.0,0.0,3,0.0,0,0,0,146.0
+urban_intersection,2. Unsignalized Urban Intersection,dijkstra,3,3,1.0,0,0.0,0,0.0,1.598,1.6,0.022,1.575,1.618,135.0,135.0,0.0,135.0,135.0,19.0,760.0,,,,0,0.0,0,0,0,
+urban_intersection,2. Unsignalized Urban Intersection,gbfs,3,3,1.0,0,0.0,0,0.0,0.336,0.335,0.005,0.331,0.341,20.0,20.0,0.0,20.0,20.0,19.0,760.0,,,,0,0.0,0,0,0,
+village_road,1. Unmarked Village Road,astar,6,6,1.0,0,0.0,0,0.0,0.41,0.404,0.032,0.375,0.47,33.0,33.0,0.0,33.0,33.0,20.243,809.72,8.35,8.35,0.0,3,1.0,0,0,0,31.7
+village_road,1. Unmarked Village Road,dijkstra,3,3,1.0,0,0.0,0,0.0,0.396,0.395,0.005,0.392,0.402,39.0,39.0,0.0,39.0,39.0,20.243,809.72,,,,0,0.0,0,0,0,
+village_road,1. Unmarked Village Road,gbfs,3,3,1.0,0,0.0,0,0.0,0.258,0.253,0.011,0.251,0.271,22.0,22.0,0.0,22.0,22.0,21.071,842.84,,,,0,0.0,0,0,0,
